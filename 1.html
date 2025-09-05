@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+
+    <!-- Headings -->
+    <h1>Main Heading</h1>
+    <h2>Sub Heading</h2>
+    <h3>Smaller Heading</h3>
+
+    <!-- Paragraph -->
+    <p>This is a simple paragraph in HTML. You can write anything here.</p>
+
+    <!-- Line break and Horizontal line -->
+    <p>This is line one<br>This is line two after a break.</p>
+    <hr>
+
+     <!-- Text Formatting -->
+    <b>Bold Text</b><br>
+    <i>Italic Text</i><br>
+    <u>Underlined Text</u><br>
+    <em>Emphasized Text</em>
+
+    <!-- Links -->
+    <p>Visit: <a href="https://www.instagram.com">Instagram</a></p>
+
+    <!-- Image -->
+    <p>Here is an image:</p>
+    <img src="profile.jpg" alt="Profile Image">
+
+    <!-- Lists -->
+    <h3>Unordered List:</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ul>
+
+    <h3>Ordered List:</h3>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <table border ="8">
+       <tr>
+        <th>Name</th>
+        <th>marks</th>
+        <th>hobby</th>
+       </tr>
+       <tr>
+        <td>Abdullah</td>
+        <td>70</td>
+        <td>cricket</td>
+       </tr>
+       <tr>
+        <td>Atif</td>
+        <td>60</td>
+        <td>cricket</td>
+       </tr>
+        <tr>
+        <td>Hamza</td>
+        <td>50</td>
+        <td>coding</td>
+       </tr>
+    </table>
+
+   <h2>Registration Form</h2>
+
+  <form action="submit" method="post">
+    <!-- Text Input -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkbox -->
+    <p>Hobbies:</p>
+    <input type="checkbox" id="sports" name="hobby" value="Sports">
+    <label for="sports">Sports</label>
+    <input type="checkbox" id="music" name="hobby" value="Music">
+    <label for="music">Music</label><br><br>
+
+    <!-- Dropdown -->
+    <label for="city">Choose City:</label><br>
+    <select id="city" name="city">
+      <option value="surat">Surat</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="delhi">Delhi</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30" placeholder="Write something..."></textarea><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+</body>
+</html>
